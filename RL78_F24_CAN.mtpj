@@ -1157,7 +1157,7 @@ src\smc_gen\r_bsp\board\generic_rl78_f24
       <LinkOptionRrm-DefaultValue>False</LinkOptionRrm-DefaultValue>
       <LinkOptionRrmValue-DefaultValue />
       <IsLockedByUser>False</IsLockedByUser>
-      <TimeTagModified--0>-8584804860994899267</TimeTagModified--0>
+      <TimeTagModified--0>-8584803364532059400</TimeTagModified--0>
       <LinkOptionAutoSectionLayout-0>True</LinkOptionAutoSectionLayout-0>
       <LinkOptionCpu-0>False</LinkOptionCpu-0>
       <LinkOptionDebug-0>Debug</LinkOptionDebug-0>
@@ -1235,7 +1235,7 @@ src\smc_gen\r_bsp\board\generic_rl78_f24
       <LinkOptionChangeMessageError-0>None</LinkOptionChangeMessageError-0>
       <LinkOptionSameCodeForbid-0 />
       <LinkOptionShowStruct-0>False</LinkOptionShowStruct-0>
-      <LinkOptionUserOptByteValue-0>EFE3F8</LinkOptionUserOptByteValue-0>
+      <LinkOptionUserOptByteValue-0>EFE3E8</LinkOptionUserOptByteValue-0>
       <LinkOptionChangeMessageErrorNumber-0 />
       <LinkOptionSectionForbid-0 />
       <LinkOptionSelf-0>None</LinkOptionSelf-0>
@@ -2268,6 +2268,7 @@ src\smc_gen\r_bsp\board\generic_rl78_f24
       <DebuggerProperty-HookProperty-HookTransaction-Broke-Length>0</DebuggerProperty-HookProperty-HookTransaction-Broke-Length>
       <DebuggerProperty-HookProperty-HookTransaction-Connected-Length>0</DebuggerProperty-HookProperty-HookTransaction-Connected-Length>
       <DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>0</DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>
+      <DebuggerProperty-EssentialProperty-EmulatorConnect-SerialNumber />
     </Instance>
   </Class>
   <Class Guid="100f3761-3d7e-4559-b1d8-375a0c7bf682">

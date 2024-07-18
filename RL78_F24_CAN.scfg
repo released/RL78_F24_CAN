@@ -17,7 +17,7 @@
             <item id="check"/>
             <item id="uncheck"/>
         </option>
-        <option enabled="true" id="baseFreqCmb" selection="base80">
+        <option enabled="true" id="baseFreqCmb" selection="base40">
             <item id="base32"/>
             <item id="base40"/>
             <item id="base64"/>
@@ -27,7 +27,7 @@
             <item id="hococlock_fihp"/>
             <item id="uncheck"/>
         </option>
-        <option enabled="true" id="hsocofrequency" selection="frq80">
+        <option enabled="true" id="hsocofrequency" selection="frq40">
             <item id="frq80"/>
             <item id="frq64"/>
             <item id="frq40"/>
@@ -61,21 +61,21 @@
         <option enabled="true" id="hssfrequency" selection="textinputitem">
             <item id="textinputitem" input="4" value="4"/>
         </option>
-        <option enabled="true" id="fmainswitcher" selection="hococlock_fmainswitcher">
-            <item id="hococlock_fmainswitcher" input="" value="80"/>
+        <option enabled="true" id="fmainswitcher" selection="hssclock_fmainswitcher">
+            <item id="hococlock_fmainswitcher" input="" value="40"/>
             <item id="hssclock_fmainswitcher" input="" value="4"/>
         </option>
         <option enabled="true" id="fih" selection="textoutputitem">
-            <item id="textoutputitem" input="" value="80"/>
+            <item id="textoutputitem" input="" value="40"/>
         </option>
         <option enabled="true" id="fmain" selection="textoutputitem">
-            <item id="textoutputitem" input="" value="80"/>
+            <item id="textoutputitem" input="" value="4"/>
         </option>
-        <option enabled="true" id="enablepll" selection="uncheck">
+        <option enabled="true" id="enablepll" selection="check">
             <item id="check"/>
             <item id="uncheck"/>
         </option>
-        <option enabled="false" id="pllfrequency" selection="frq40">
+        <option enabled="true" id="pllfrequency" selection="frq80">
             <item id="frq24"/>
             <item id="frq32"/>
             <item id="frq40"/>
@@ -83,11 +83,11 @@
             <item id="frq64"/>
             <item id="frq80"/>
         </option>
-        <option enabled="false" id="lockupwaitcounter" selection="8">
-            <item id="7" input="" value="1.6"/>
-            <item id="8" input="" value="3.2"/>
-            <item id="9" input="" value="6.4"/>
-            <item id="10" input="" value="12.8"/>
+        <option enabled="true" id="lockupwaitcounter" selection="8">
+            <item id="7" input="" value="32"/>
+            <item id="8" input="" value="64"/>
+            <item id="9" input="" value="128"/>
+            <item id="10" input="" value="256"/>
         </option>
         <option enabled="true" id="lsfrequency" selection="frequency">
             <item id="frequency" input="" value="15"/>
@@ -115,15 +115,15 @@
         <option enabled="false" id="subfrequency" selection="textoutputitem">
             <item id="textoutputitem" input="" value="32.768"/>
         </option>
-        <option enabled="true" id="fmpswitcher" selection="fmainswitcher_fmpswitcher">
-            <item id="fmainswitcher_fmpswitcher" input="" value="80"/>
-            <item id="pll_fmpswitcher" input="" value="40"/>
+        <option enabled="true" id="fmpswitcher" selection="pll_fmpswitcher">
+            <item id="fmainswitcher_fmpswitcher" input="" value="4"/>
+            <item id="pll_fmpswitcher" input="" value="80"/>
         </option>
         <option enabled="true" id="fmp" selection="textoutputitem">
             <item id="textoutputitem" input="" value="80"/>
         </option>
-        <option enabled="false" id="fpll" selection="textoutputitem">
-            <item id="textoutputitem" input="" value="40"/>
+        <option enabled="true" id="fpll" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="80"/>
         </option>
         <option enabled="true" id="fmx" selection="textoutputitem">
             <item id="textoutputitem" input="" value="4"/>

@@ -86,7 +86,7 @@
 /* Option byte setting(When using IAR) */
 #define BSP_CFG_OPTBYTE0_VALUE (0xEFU) /* Generated value. Do not edit this manually */
 #define BSP_CFG_OPTBYTE1_VALUE (0xE3U) /* Generated value. Do not edit this manually */
-#define BSP_CFG_OPTBYTE2_VALUE (0xF8U) /* Generated value. Do not edit this manually */
+#define BSP_CFG_OPTBYTE2_VALUE (0xE8U) /* Generated value. Do not edit this manually */
 #define BSP_CFG_OPTBYTE3_VALUE (0xA5U) /* Generated value. Do not edit this manually */
 #define BSP_CFG_OPTBYTE4_VALUE (0xFEU) /* Generated value. Do not edit this manually */
 /* Security ID Codes for On-Chip Debugging setting(When using IAR) */
@@ -1123,7 +1123,7 @@
  0 : Selects the high-speed on-chip oscillator clock (fIH) as the main system clock (fMAIN)
  1 : Selects the high-speed system clock (fMX) as the main system clock (fMAIN)
 */
-#define BSP_CFG_MAINCLK_SOURCE (0) /* Generated value. Do not edit this manually */
+#define BSP_CFG_MAINCLK_SOURCE (1) /* Generated value. Do not edit this manually */
 
 /* High-speed system clock operation control
    Clock Operation Status Control Register(CSC)
@@ -1312,7 +1312,7 @@
  2 : Multiples the clock frequency by 10.
  3 : Multiples the clock frequency by 20.
 */
-#define BSP_CFG_PLL_MULTI (0) /* Generated value. Do not edit this manually */
+#define BSP_CFG_PLL_MULTI (3) /* Generated value. Do not edit this manually */
 
 /* Control of clock mode selection
    PLL Control Register(PLLCTL)
@@ -1320,7 +1320,7 @@
  0 : Clock through mode (fMAIN)
  1 : PLL-clock-selected mode (fPLL)
 */
-#define BSP_CFG_PLL_MODE (0) /* Generated value. Do not edit this manually */
+#define BSP_CFG_PLL_MODE (1) /* Generated value. Do not edit this manually */
 
 /* Control of PLL operation
    PLL Control Register(PLLCTL)
@@ -1328,11 +1328,11 @@
  0 : Stops PLL operation.
  1 : Starts PLL operation.
 */
-#define BSP_CFG_PLL_OPERATION (0) /* Generated value. Do not edit this manually */
+#define BSP_CFG_PLL_OPERATION (1) /* Generated value. Do not edit this manually */
 
 /* Input clock frequency in Hz(PLL clock(fPLL))
 */
-#define BSP_CFG_FPLL_HZ (40000000) /* Generated value. Do not edit this manually */
+#define BSP_CFG_FPLL_HZ (80000000) /* Generated value. Do not edit this manually */
 
 /* fMP clock division control
    fMP Clock Division Register(MDIV)

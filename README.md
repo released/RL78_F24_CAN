@@ -16,7 +16,20 @@ https://www.renesas.com/us/en/document/apn/rl78f24-rs-canfd-lite-module-software
 
 4. below is CAN bus clock setting in smart config 
 
+
 ![image](https://github.com/released/RL78_F24_CAN/blob/main/smart_config_baud_rate.jpg)
+
+
+ User’s Manual: Hardware , clocks
+![image](https://github.com/released/RL78_F24_CAN/blob/main/User_Manual_clocks.jpg)
+
+
+ High-Speed On-chip Oscillator
+![image](https://github.com/released/RL78_F24_CAN/blob/main/smart_config_clocks.jpg)
+
+
+ X1 Oscillator + PLL Circuit
+![image](https://github.com/released/RL78_F24_CAN/blob/main/smart_config_clocks_X1.jpg)
 
 
 5. below is baud rate/sampling setting in PCAN 

@@ -192,6 +192,7 @@ void CAN_Get_RX_Data_Message_Buffer(void)
     else
     {
         #if 1
+        printf("%s\r\n",__func__);
         decode_rcv_frame(&rx_frame);
         #else
         /* process for receive message */ 
@@ -587,8 +588,6 @@ void my_can_glb_rxmb_callback(uint16_t arg)
     can_length_t      length; 
     // unsigned char i = 0;
 
-    printf("%s:%d(0x%04X)\r\n",__func__,arg,arg);  
-
     rtn = R_CAN_ReadRXMBInHandler(CAN_RXBUF0, &rx_frame, &length); 
     if (rtn != CAN_SUCCESS)
     {
@@ -597,6 +596,7 @@ void my_can_glb_rxmb_callback(uint16_t arg)
     else 
     { 
         #if 1
+        printf("%s:%d(0x%04X)\r\n",__func__,arg,arg);  
         decode_rcv_frame(&rx_frame);
         #else
         /* process for receive message */ 

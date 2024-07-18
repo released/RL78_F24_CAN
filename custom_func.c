@@ -143,7 +143,7 @@ void CAN_FD_Process_in_polling(void)
     }
 
     // CAN_Read_RX_Data_FIFO();// check isr:r_can_glb_rxmb_isr
-    CAN_Get_RX_Data_Message_Buffer();
+    // CAN_Get_RX_Data_Message_Buffer();
 }
 
 void Timer_1ms_IRQ(void)

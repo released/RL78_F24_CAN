@@ -226,7 +226,7 @@
           <Option>-OCDBG=A5</Option>
           <Option>-SECURITY_OPT_BYTE=FE</Option>
           <Option>-DEBUG_MONITOR=3FF00-3FFFF</Option>
-          <Option>-USER_OPT_BYTE=EFE3F8</Option>
+          <Option>-USER_OPT_BYTE=EFE3E8</Option>
           <Option>-LISt=%BuildModeName%\%ProjectName%.map</Option>
           <Option>-SHow=Reference,Xreference,Total_size</Option>
           <Option>-AUTO_SECTION_LAYOUT</Option>
